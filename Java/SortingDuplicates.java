@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -6,7 +6,7 @@ public class SortingDuplicates {
     public static void main(String[] args) {
         int array[]={1,4,4,8,6,7,9,8,8};
         Arrays.sort(array);
-        ArrayList<Integer> list= new ArrayList<>();
+        //ArrayList<Integer> list= new ArrayList<>();
         int count=0;
         int hitcount=0;
         HashMap<Integer,Integer> hmap= new HashMap<Integer,Integer>();

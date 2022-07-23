@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+
 
 //Str s1 ="Rahul"
 // Str s2 = new String("Rahul");
@@ -8,8 +7,8 @@ class Example{
 //0,1,2,0,1,2,0,1,2,0,1,2
     public static void main(String [] args){
         //ArrayList<Integer> list =Arrays.asList(0,1,2,0,1,2,0,1,2,0,1,2);
-        String s1="Rahul";
-        String s2 =new String("Rahul");
+        //String s1="Rahul";
+        //String s2 =new String("Rahul");
         String str = "abc123def345ghi213";
 
     //System.out.println(s1.hashCode()==s2.hashCode());

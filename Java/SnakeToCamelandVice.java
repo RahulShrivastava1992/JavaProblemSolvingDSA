@@ -20,7 +20,7 @@ public static void main(String[] args){
 
 }
 public static String SnakeToCamel(String str){
-    String result = "";
+    //String result = "";
     str = str.substring(0, 1).toUpperCase()
               + str.substring(1);
     StringBuilder builder= new StringBuilder(str);
