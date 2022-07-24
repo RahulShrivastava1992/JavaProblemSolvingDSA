@@ -17,7 +17,7 @@ public static void main(String[] args) {
         strLst.add("Mrinalini");
         strLst.add("ABC");
         Set<Integer> intSet=new HashSet<Integer>(intLst);
-        //List<String> data = strLst.stream().dropWhile(d -> (d.matches("-?\\d+(.\\d+)?"))).collect(Collectors.toList());;
+        List<String> data = strLst.stream().dropWhile(d -> (d.matches("-?\\d+(.\\d+)?"))).collect(Collectors.toList());;
 //System.out.println(data);
 
 }
